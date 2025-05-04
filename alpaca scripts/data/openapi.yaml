@@ -1,0 +1,37 @@
+openapi: 3.0.0
+info:
+  title: Alpaca API Wrapper
+  version: 1.0.0
+servers:
+  - url: https://your-deployed-url.com
+paths:
+  /aapl/10min:
+    get:
+      summary: Get AAPL 10min chart
+      responses:
+        '200':
+          description: AAPL 10min data
+  /aapl/1hour:
+    get:
+      summary: Get AAPL 1hour chart
+      responses:
+        '200':
+          description: AAPL 1hour data
+  /aapl/4hour:
+    get:
+      summary: Get AAPL 4hour chart
+      responses:
+        '200':
+          description: AAPL 4hour data
+  /aapl/1day:
+    get:
+      summary: Get AAPL 1day chart
+      responses:
+        '200':
+          description: AAPL 1day data
+  /aapl/1week:
+    get:
+      summary: Get AAPL 1week chart
+      responses:
+        '200':
+          description: AAPL 1week data
