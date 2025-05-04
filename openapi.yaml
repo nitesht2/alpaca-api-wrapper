@@ -3,7 +3,7 @@ info:
   title: Alpaca API Wrapper
   version: 1.0.0
 servers:
-  - url: https://your-deployed-url.com
+  - url: https://alpaca-api-wrapper.onrender.com
 paths:
   /aapl/10min:
     get:
